@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-08T15:07:42 CEST" name="Default suite" finished-at="2020-04-08T15:07:53 CEST" duration-ms="10705">
+    <groups>
+    </groups>
+    <test started-at="2020-04-08T15:07:42 CEST" name="Default test" finished-at="2020-04-08T15:07:53 CEST" duration-ms="10705">
+      <class name="tests.SummerDresses_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:42 CEST" name="beforeTest" finished-at="2020-04-08T15:07:44 CEST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="clickOnDressTest()[pri:1, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:44 CEST" name="clickOnDressTest" finished-at="2020-04-08T15:07:50 CEST" duration-ms="6145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDressTest -->
+        <test-method signature="checkoutTest()[pri:2, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:50 CEST" name="checkoutTest" finished-at="2020-04-08T15:07:53 CEST" duration-ms="2895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:53 CEST" name="afterTest" finished-at="2020-04-08T15:07:53 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.SummerDresses_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
