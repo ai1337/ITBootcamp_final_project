@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-08T15:07:42 CEST" name="Default suite" finished-at="2020-04-08T15:07:53 CEST" duration-ms="10705">
+  <suite started-at="2020-04-11T19:01:37 CEST" name="SummerDresses" finished-at="2020-04-11T19:02:03 CEST" duration-ms="26079">
     <groups>
     </groups>
-    <test started-at="2020-04-08T15:07:42 CEST" name="Default test" finished-at="2020-04-08T15:07:53 CEST" duration-ms="10705">
-      <class name="tests.SummerDresses_Test">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:42 CEST" name="beforeTest" finished-at="2020-04-08T15:07:44 CEST" duration-ms="1641" status="PASS">
+    <test started-at="2020-04-11T19:01:37 CEST" name="Test" finished-at="2020-04-11T19:02:03 CEST" duration-ms="26079">
+      <class name="tests.RegistrationAfterBuy_Test">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.RegistrationAfterBuy_Test@7fc229ab]" started-at="2020-04-11T19:01:47 CEST" name="beforeTest" finished-at="2020-04-11T19:01:48 CEST" duration-ms="1241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="clickOnDressTest()[pri:1, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:44 CEST" name="clickOnDressTest" finished-at="2020-04-08T15:07:50 CEST" duration-ms="6145" status="PASS">
+        <test-method signature="choseDressTest()[pri:1, instance:tests.RegistrationAfterBuy_Test@7fc229ab]" started-at="2020-04-11T19:01:48 CEST" name="choseDressTest" finished-at="2020-04-11T19:01:56 CEST" duration-ms="8047" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnDressTest -->
-        <test-method signature="checkoutTest()[pri:2, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:50 CEST" name="checkoutTest" finished-at="2020-04-08T15:07:53 CEST" duration-ms="2895" status="PASS">
+        </test-method> <!-- choseDressTest -->
+        <test-method signature="registrationAfterBuy()[pri:2, instance:tests.RegistrationAfterBuy_Test@7fc229ab]" started-at="2020-04-11T19:01:56 CEST" name="registrationAfterBuy" finished-at="2020-04-11T19:02:03 CEST" duration-ms="6956" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkoutTest -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.SummerDresses_Test@2aa5fe93]" started-at="2020-04-08T15:07:53 CEST" name="afterTest" finished-at="2020-04-08T15:07:53 CEST" duration-ms="0" status="PASS">
+        </test-method> <!-- registrationAfterBuy -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.RegistrationAfterBuy_Test@7fc229ab]" started-at="2020-04-11T19:02:03 CEST" name="afterTest" finished-at="2020-04-11T19:02:03 CEST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- tests.SummerDresses_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- tests.RegistrationAfterBuy_Test -->
+      <class name="tests.HomePage_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.HomePage_Test@6e75aa0d]" started-at="2020-04-11T19:01:37 CEST" name="openBrowser" finished-at="2020-04-11T19:01:39 CEST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="womenSummerDressesTest()[pri:1, instance:tests.HomePage_Test@6e75aa0d]" started-at="2020-04-11T19:01:39 CEST" name="womenSummerDressesTest" finished-at="2020-04-11T19:01:43 CEST" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womenSummerDressesTest -->
+        <test-method signature="dressesSummerDressesTest()[pri:2, instance:tests.HomePage_Test@6e75aa0d]" started-at="2020-04-11T19:01:43 CEST" name="dressesSummerDressesTest" finished-at="2020-04-11T19:01:46 CEST" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dressesSummerDressesTest -->
+        <test-method signature="summerDressesSamePageTest()[pri:3, instance:tests.HomePage_Test@6e75aa0d]" started-at="2020-04-11T19:01:46 CEST" name="summerDressesSamePageTest" finished-at="2020-04-11T19:01:46 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summerDressesSamePageTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.HomePage_Test@6e75aa0d]" started-at="2020-04-11T19:01:47 CEST" name="afterTest" finished-at="2020-04-11T19:01:47 CEST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.HomePage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- SummerDresses -->
 </testng-results>

@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class SummerDresses {
+public class SummerDress {
 	public static final String SUMMER_DRESSES_URL = "http://automationpractice.com/index.php?id_category=11&controller=category";
 	public WebElement more_element;
 	public WebElement quntity;
@@ -15,6 +15,9 @@ public class SummerDresses {
 	public WebElement color;
 	public WebElement addToCard;
 	public WebElement checkoutButton;
+	public WebElement sizeColorCheck;
+	public WebElement quantityCheck;
+	public WebElement nameOfDressCheck;
 
 	public void clickOnDress(WebDriver driver) {
 		more_element = driver
@@ -40,6 +43,16 @@ public class SummerDresses {
 		checkoutButton = driver.findElement(By.xpath("//a[@title='Proceed to checkout']"));
 		wait.until(ExpectedConditions.visibilityOf(checkoutButton));
 		checkoutButton.click();
+
+	}
+
+	public void infoDress(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, 5);
+		sizeColorCheck = driver.findElement(By.xpath("//*[@id='product_5_24_0_0']/td[2]/small[2]/a"));
+		wait.until(ExpectedConditions.visibilityOf(sizeColorCheck));
+		quantityCheck = driver.findElement(By.xpath("//input[@name='quantity_5_24_0_0']"));
+		nameOfDressCheck = driver.findElement(By.xpath("//*[@id='product_5_24_0_0']/td[2]/p/a"));
+		
 	}
 
 }

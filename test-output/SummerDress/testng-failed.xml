@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SummerDress]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SummerDresses_Different_Links(failed)">
+    <classes>
+      <class name="tests.RegistrationAfterBuy_Test">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="registrationAfterBuy"/>
+        </methods>
+      </class> <!-- tests.RegistrationAfterBuy_Test -->
+    </classes>
+  </test> <!-- SummerDresses_Different_Links(failed) -->
+  <test thread-count="5" name="Registration(failed)">
+    <classes>
+      <class name="tests.LogIn_Test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="loginTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.LogIn_Test -->
+      <class name="tests.Registration_Test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="registrationTest"/>
+        </methods>
+      </class> <!-- tests.Registration_Test -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+</suite> <!-- Failed suite [SummerDress] -->
